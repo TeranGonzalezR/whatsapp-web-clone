@@ -9,6 +9,9 @@ jobs:
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
+        
+      - name: posibleSolucion
+        run: npm install --save-dev @babel/plugin-proposal-private-property-in-object
 
       - name: Install packages
         run: npm install
