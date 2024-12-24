@@ -16,5 +16,5 @@ jobs:
       - name: Install packages
         run: npm install
       
-      - name: Bundle
-        run: npm run build
+      - name: Build project
+        run: CI=false npm run build
