@@ -12,9 +12,6 @@ jobs:
 
       - name: Install packages
         run: npm install
-
-      - name: Install packages
-        run: npm ci
-
+      
       - name: Bundle
         run: npm run build
