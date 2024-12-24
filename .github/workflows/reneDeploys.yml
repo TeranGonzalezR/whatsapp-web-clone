@@ -11,6 +11,9 @@ jobs:
         uses: actions/setup-node@v2
 
       - name: Install packages
+        run: npm install
+
+      - name: Install packages
         run: npm ci
 
       - name: Bundle
